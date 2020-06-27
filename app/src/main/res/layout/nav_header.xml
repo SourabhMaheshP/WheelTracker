@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/gradient"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/dp"
+        android:layout_width="116dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@mipmap/account_icon2" />
+
+    <TextView
+        android:id="@+id/greeting_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/bebasbold"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/greeting_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example@xyz.com"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginTop="1.5dp"
+        />
+</LinearLayout>

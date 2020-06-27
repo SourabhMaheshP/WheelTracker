@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="70dp"
+    android:elevation="10dp"
+    android:background="#eaf2f8"
+    android:orientation="vertical"
+    >
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/profile"
+        android:text="\tProfile Details"
+        android:textColor=" #154360 "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bebas"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="9dp"
+        android:background="#D3A79F9F" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="\tTracker Device ID\n"
+        android:fontFamily="@font/bebasregular"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/profile_sensor_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:text="sensor_id"
+        android:textColor=" #943126 "
+        android:textSize="15sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="\tName\n"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:fontFamily="@font/bebasregular"/>
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:text="name"
+        android:textSize="14sp"
+        android:textColor=" #943126 "
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="\tPhone\n"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:fontFamily="@font/bebasregular"/>
+
+    <TextView
+        android:id="@+id/profile_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:text="phone"
+        android:textSize="14sp"
+        android:textColor=" #943126 "
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="\tEmail\n"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:fontFamily="@font/bebasregular"/>
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:text="email"
+        android:textColor=" #943126 "
+        android:textSize="14sp" />
+
+
+
+</LinearLayout>

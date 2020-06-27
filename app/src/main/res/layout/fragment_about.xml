@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConnectActivity">
+
+
+    <TextView
+        android:id="@+id/connect_device"
+        android:layout_width="103dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="388dp"
+        android:background="@drawable/title_layout"
+        android:fontFamily="@font/bebasbold"
+        android:gravity="center"
+        android:text="About Us!"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="283dp"
+        android:layout_height="383dp"
+        android:background=" #d5dbdb "
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connect_device"
+        app:layout_constraintVertical_bias="0.243">
+
+
+        <TextView
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebasbold"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="Wheel Tracker Application"
+            android:textSize="30sp"
+            app:layout_constraintVertical_bias="0.434"
+            android:drawableLeft="@mipmap/wheeltracker1"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="239dp"
+            android:elevation="1dp"
+            android:fontFamily="@font/bebasregular"
+            android:inputType="textMultiLine"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:text="This application lets you locate and track your vehicle safety with the help
+of TRACKING GPS DEVICE.\n\n1. View GPS location on Google Maps.\n\n2. Constantly monitoring vehicle
+position."
+            android:textColor="  #6e2c00 "
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

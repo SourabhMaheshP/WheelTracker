@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Wheel Tracker </string>
+    <string name="login_image">login image</string>
+    <string name="account_login">Account Login!</string>
+    <string name="log_in">Log In</string>
+    <string name="copyright">© Sourabhs, All rights reserved</string>
+    <string name="msg1">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="greeting1">Create A New Account?</string>
+    <string name="connect_device">Connect</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

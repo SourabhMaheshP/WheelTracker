@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/toolbar"
+        />
+    <LinearLayout
+        android:id="@+id/signupmessage"
+        android:layout_width="294dp"
+        android:layout_height="68dp"
+        android:background="@drawable/linearborder"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bebasbold"
+            android:gravity="center"
+            android:text="Enter Phone number for\nverification!"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="287dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="172dp"
+        android:background="@drawable/signuplayout"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signupmessage"
+        app:layout_constraintVertical_bias="0.396">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <EditText
+            android:id="@+id/signuphone"
+            android:layout_width="240dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_border"
+            android:drawableRight="@drawable/uname"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="(+91) Phone number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColorLink="#D81B60"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+<!--        <Button-->
+<!--            android:id="@+id/signupnext"-->
+<!--            android:layout_width="55dp"-->
+<!--            android:layout_height="42dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="@drawable/arrow_right" />-->
+                <Button
+                    android:id="@+id/signupnext"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.9"
+                    android:background="#3b5998"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Next"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
